@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="financial calculator" />
+    <meta
+      name="description"
+      content="App calculates the percentage of each brand [Brex, Stripe, Amex ]"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>financial calculator widget</title>
+  </head>
+  <body>
+
+    <div class="container">
+        
+      <h2>Calculate your Rewards</h2>
+      <form>
+        <label for="bill" class="handle">Vendor/Bills</label>
+        <input type="number" id="bill" placeholder="Enter a number" />
+        <br />
+        <label for="media" class="handle">Media/Ad Spend</label>
+        <input type="number" id="media" placeholder="Enter a number" />
+        <br />
+        <label for="corp" class="handle">Corp.Spend</label>
+        <input type="number" id="corp" placeholder="Enter a number" />
+        <br />
+        <label for="team" class="handle">Team Project</label>
+        <input type="number" id="team" placeholder="Enter a number" />
+        
+      </form>
+      <h3>Compare your Rewards</h3>
+      <div>
+        <button class="btn"><a href="brex.html">Brex</a></button>
+        <button class="btn"><a href="stripe.html">Stripe</a></button>
+        <button class="btn"><a href="amex.html">Amex</a></button>
+      </div>
+      <div class="second-section">
+        <div class="gray-box">
+          <img src="samplecard.png" alt="card" draggable="false" />
+          <div class="p-conatiner">
+          <p class="p1">unlimited rewards</p>
+          <p class="p2">lifetime rewards</p>
+        </div>
+        </div>
+        <div class="shape-container">
+            <div class="handle-shape">
+        <div class="shape"></div>
+        <span class="res-unlimited"></span>
+    </div>
+    <div class="handle-shape">
+        <div class="shape"></div>
+        <span class="res-lifetime"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
